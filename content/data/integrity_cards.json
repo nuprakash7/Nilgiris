@@ -1,0 +1,1246 @@
+[
+  {
+    "id": "starter-timber-plank",
+    "flavorText": "",
+    "name": "Timber Mount",
+    "baseIntegrity": 2,
+    "effectText": "Adds 2 Integrity.",
+    "placementGold": 3
+  },
+  {
+    "id": "starter-iron-spike",
+    "flavorText": "",
+    "name": "Iron Spike",
+    "baseIntegrity": 5,
+    "effectText": "Adds 5 Integrity.",
+    "placementGold": 0
+  },
+  {
+    "id": "starter-cross-tie",
+    "flavorText": "",
+    "name": "Span Support",
+    "baseIntegrity": 3,
+    "effectText": "Adds 3 Integrity. +3 in the middle slot.",
+    "positionEffect": {
+      "condition": "centerSlot",
+      "params": {},
+      "integrityBonus": 3
+    },
+    "placementGold": 1
+  },
+  {
+    "id": "starter-even-bearing",
+    "flavorText": "",
+    "name": "Even Bearing",
+    "baseIntegrity": 4,
+    "effectText": "Adds 4 Integrity. +2 in an even-numbered slot.",
+    "positionEffect": {
+      "condition": "evenSlot",
+      "params": {},
+      "integrityBonus": 2
+    },
+    "placementGold": 1
+  },
+  {
+    "number": 1,
+    "id": "timber-plank",
+    "flavorText": "",
+    "name": "Enhanced Timber Mount",
+    "baseIntegrity": 4,
+    "effectText": "Adds 4 Integrity.",
+    "placementGold": 3,
+    "purchasePrice": 6
+  },
+  {
+    "number": 2,
+    "id": "iron-spike",
+    "flavorText": "",
+    "name": "Enhanced Iron Spike",
+    "baseIntegrity": 5,
+    "effectText": "Adds 5 Integrity.",
+    "placementGold": 1,
+    "purchasePrice": 3
+  },
+  {
+    "number": 3,
+    "id": "stone-footing",
+    "flavorText": "",
+    "name": "Stone Footing",
+    "baseIntegrity": 6,
+    "effectText": "Adds 6 Integrity.",
+    "placementGold": 1,
+    "purchasePrice": 4
+  },
+  {
+    "number": 4,
+    "id": "steel-girder",
+    "flavorText": "",
+    "name": "Steel Girder",
+    "baseIntegrity": 7,
+    "effectText": "Adds 7 Integrity.",
+    "placementGold": 1,
+    "purchasePrice": 5
+  },
+  {
+    "number": 5,
+    "id": "left-brace",
+    "flavorText": "",
+    "name": "Left Brace",
+    "baseIntegrity": 4,
+    "effectText": "Adds 4 Integrity. +2 if its left neighbour is occupied.",
+    "positionEffect": {
+      "condition": "leftOccupied",
+      "params": {},
+      "integrityBonus": 2
+    },
+    "placementGold": 2,
+    "purchasePrice": 4
+  },
+  {
+    "number": 6,
+    "id": "right-brace",
+    "flavorText": "",
+    "name": "Right Brace",
+    "baseIntegrity": 4,
+    "effectText": "Adds 4 Integrity. +2 if its right neighbour is occupied.",
+    "positionEffect": {
+      "condition": "rightOccupied",
+      "params": {},
+      "integrityBonus": 2
+    },
+    "placementGold": 2,
+    "purchasePrice": 4
+  },
+  {
+    "number": 7,
+    "id": "cross-tie",
+    "flavorText": "",
+    "name": "Cross Tie",
+    "baseIntegrity": 5,
+    "effectText": "Adds 5 Integrity, plus 1 per occupied neighbouring slot.",
+    "positionEffect": {
+      "condition": "perAdjacentSlotOccupied",
+      "params": {},
+      "integrityBonus": 1
+    },
+    "placementGold": 1,
+    "purchasePrice": 5
+  },
+  {
+    "number": 8,
+    "id": "pool-1-lone-pier",
+    "flavorText": "",
+    "name": "Lone Pier",
+    "baseIntegrity": 4,
+    "effectText": "Adds 4 Integrity. +3 if neither neighbour is occupied.",
+    "positionEffect": {
+      "condition": "emptyNeighbors",
+      "params": {},
+      "integrityBonus": 3
+    },
+    "placementGold": 2,
+    "purchasePrice": 5
+  },
+  {
+    "number": 9,
+    "id": "first-footing",
+    "flavorText": "",
+    "name": "First Footing",
+    "baseIntegrity": 5,
+    "effectText": "Adds 5 Integrity. +3 if placed first this round.",
+    "positionEffect": {
+      "condition": "firstPlayedThisRound",
+      "params": {},
+      "integrityBonus": 3
+    },
+    "placementGold": 1,
+    "purchasePrice": 6
+  },
+  {
+    "number": 10,
+    "id": "centre-pier",
+    "flavorText": "",
+    "name": "Hefty Pier",
+    "baseIntegrity": 10,
+    "effectText": "Adds 10 Integrity. The next Forest hit this round deals +4 damage.",
+    "effects": [
+      {
+        "type": "nextForestDamage",
+        "amount": 4
+      }
+    ],
+    "placementGold": 2,
+    "purchasePrice": 7
+  },
+  {
+    "number": 11,
+    "id": "pool-1-closing-keystone",
+    "flavorText": "",
+    "name": "Closing Keystone",
+    "baseIntegrity": 4,
+    "effectText": "Adds 4 Integrity. +4 if this is the last placement of the round.",
+    "positionEffect": {
+      "condition": "lastPlacementThisRound",
+      "params": {},
+      "integrityBonus": 4
+    },
+    "placementGold": 1,
+    "purchasePrice": 6
+  },
+  {
+    "number": 12,
+    "id": "pool-1-layered-support",
+    "flavorText": "",
+    "name": "Layered Support",
+    "baseIntegrity": 4,
+    "effectText": "Adds 4 Integrity, plus 2 per link in the current consecutive adjacent-placement chain.",
+    "integrityFormula": {
+      "type": "adjacentChain",
+      "amount": 2
+    },
+    "placementGold": 1,
+    "purchasePrice": 7
+  },
+  {
+    "number": 13,
+    "id": "guide-beam",
+    "flavorText": "",
+    "name": "Guide Beam",
+    "baseIntegrity": 4,
+    "effectText": "Adds 4 Integrity. The next Construct placed directly beside it permanently gains +1 Integrity.",
+    "effects": [
+      {
+        "type": "nextAdjacentPermanent",
+        "amount": 1
+      }
+    ],
+    "placementGold": 1,
+    "purchasePrice": 7
+  },
+  {
+    "number": 14,
+    "id": "staging-deck",
+    "flavorText": "",
+    "name": "Staging Deck",
+    "baseIntegrity": 5,
+    "effectText": "Adds 5 Integrity.",
+    "placementGold": 2,
+    "purchasePrice": 6
+  },
+  {
+    "number": 15,
+    "id": "end-bearing",
+    "flavorText": "",
+    "name": "Edge Clasps",
+    "baseIntegrity": 4,
+    "effectText": "Adds 4 Integrity. +3 in either edge slot.",
+    "positionEffect": {
+      "condition": "endSlot",
+      "params": {},
+      "integrityBonus": 3
+    },
+    "placementGold": 1,
+    "purchasePrice": 6
+  },
+  {
+    "number": 16,
+    "id": "riveted-girder",
+    "name": "Riveted Girder",
+    "flavorText": "",
+    "baseIntegrity": 13,
+    "effectText": "Adds 13 Integrity.",
+    "purchasePrice": 11,
+    "placementGold": 2
+  },
+  {
+    "number": 17,
+    "id": "seasoned-pier",
+    "name": "Seasoned Pier",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Adds 8 Integrity. Reinforce 1.",
+    "purchasePrice": 8,
+    "placementGold": 5,
+    "reinforce": 1
+  },
+  {
+    "number": 18,
+    "id": "tempered-beam",
+    "name": "Tempered Beam",
+    "flavorText": "",
+    "baseIntegrity": 7,
+    "effectText": "Adds 7 Integrity. Reinforce 2.",
+    "purchasePrice": 9,
+    "placementGold": 4,
+    "reinforce": 2
+  },
+  {
+    "number": 19,
+    "id": "practised-footing",
+    "name": "Practised Footing",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Adds 8 Integrity. +3 in either edge slot.",
+    "purchasePrice": 9,
+    "placementGold": 4,
+    "positionEffect": {
+      "condition": "endSlot",
+      "params": {},
+      "integrityBonus": 3
+    }
+  },
+  {
+    "number": 20,
+    "id": "fitted-span",
+    "name": "Fitted Span",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Adds 8 Integrity. +3 if both neighbours are occupied.",
+    "purchasePrice": 9,
+    "placementGold": 5,
+    "positionEffect": {
+      "condition": "bothNeighborsOccupied",
+      "params": {},
+      "integrityBonus": 3
+    }
+  },
+  {
+    "number": 21,
+    "id": "bolted-brace",
+    "name": "Bolted Brace",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Adds 8 Integrity. Support one adjacent Construct by 3.",
+    "purchasePrice": 9,
+    "placementGold": 4,
+    "effects": [
+      {
+        "type": "support",
+        "target": "adjacentOne",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "number": 22,
+    "id": "cross-bracing",
+    "name": "Cross Bracing",
+    "flavorText": "",
+    "baseIntegrity": 7,
+    "effectText": "Adds 7 Integrity. Support each adjacent Construct by 2.",
+    "purchasePrice": 9,
+    "placementGold": 4,
+    "effects": [
+      {
+        "type": "support",
+        "target": "adjacentAll",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "number": 23,
+    "id": "balancing-frame",
+    "name": "Balancing Frame",
+    "flavorText": "",
+    "baseIntegrity": 7,
+    "effectText": "Adds 7 Integrity. Support the lowest-power other Construct by 4. Choose if tied.",
+    "purchasePrice": 10,
+    "placementGold": 4,
+    "effects": [
+      {
+        "type": "support",
+        "target": "lowest",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "number": 24,
+    "id": "long-reach-crane",
+    "name": "Long-Reach Crane",
+    "flavorText": "",
+    "baseIntegrity": 5,
+    "effectText": "Adds 5 Integrity. Support any other Construct by 5.",
+    "purchasePrice": 10,
+    "placementGold": 5,
+    "effects": [
+      {
+        "type": "support",
+        "target": "any",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "number": 25,
+    "id": "seasoned-assembly",
+    "name": "Seasoned Assembly",
+    "flavorText": "",
+    "baseIntegrity": 7,
+    "effectText": "Adds 7 Integrity. Support the Construct to the left by 4.",
+    "purchasePrice": 9,
+    "placementGold": 5,
+    "effects": [
+      {
+        "type": "support",
+        "target": "left",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "number": 26,
+    "id": "training-scaffold",
+    "name": "Training Scaffold",
+    "flavorText": "",
+    "baseIntegrity": 7,
+    "effectText": "Adds 7 Integrity. Support another Construct in either edge slot by 6.",
+    "purchasePrice": 11,
+    "placementGold": 3,
+    "effects": [
+      {
+        "type": "support",
+        "target": "edge",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "number": 27,
+    "id": "shared-foundation",
+    "name": "Shared Foundation",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Adds 8 Integrity. Reinforce 3.",
+    "purchasePrice": 12,
+    "placementGold": 3,
+    "reinforce": 3
+  },
+  {
+    "number": 28,
+    "id": "inspection-gantry",
+    "name": "Inspection Gantry",
+    "flavorText": "",
+    "baseIntegrity": 7,
+    "effectText": "Adds 7 Integrity. You may Bounce one adjacent Construct.",
+    "purchasePrice": 10,
+    "placementGold": 4,
+    "effects": [
+      {
+        "type": "bounce",
+        "target": "adjacent",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "number": 29,
+    "id": "travelling-derrick",
+    "name": "Travelling Derrick",
+    "flavorText": "",
+    "baseIntegrity": 5,
+    "effectText": "Adds 5 Integrity. You may Bounce any other Construct.",
+    "purchasePrice": 11,
+    "placementGold": 3,
+    "effects": [
+      {
+        "type": "bounce",
+        "target": "any",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "number": 30,
+    "id": "finishing-crew",
+    "name": "Finishing Crew",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Adds 8 Integrity. Draw 2 cards.",
+    "purchasePrice": 10,
+    "placementGold": 2,
+    "draw": {
+      "trigger": "onPlacement",
+      "amount": 2
+    }
+  },
+  {
+    "number": 31,
+    "id": "heavy-girder",
+    "name": "Heavy Girder",
+    "flavorText": "",
+    "baseIntegrity": 18,
+    "effectText": "Adds 18 Integrity.",
+    "flair": {
+      "type": "integrity",
+      "amount": 2
+    },
+    "purchasePrice": 16,
+    "placementGold": 3
+  },
+  {
+    "number": 32,
+    "id": "seasoned-abutment",
+    "name": "Seasoned Abutment",
+    "flavorText": "",
+    "baseIntegrity": 12,
+    "effectText": "Base 12 power. Reinforce 1.",
+    "reinforce": 1,
+    "purchasePrice": 12,
+    "placementGold": 6
+  },
+  {
+    "number": 33,
+    "id": "tempered-pier",
+    "name": "Tempered Pier",
+    "flavorText": "",
+    "baseIntegrity": 11,
+    "effectText": "Base 11 power. Reinforce 2.",
+    "reinforce": 2,
+    "purchasePrice": 14,
+    "placementGold": 5
+  },
+  {
+    "number": 34,
+    "id": "independent-footing",
+    "name": "Independent Footing",
+    "flavorText": "",
+    "baseIntegrity": 10,
+    "effectText": "Base 10 power. Reinforce 1. +4 Integrity with no occupied neighbors.",
+    "reinforce": 1,
+    "positionEffect": {
+      "condition": "emptyNeighbors",
+      "params": {},
+      "integrityBonus": 4
+    },
+    "purchasePrice": 13,
+    "placementGold": 5
+  },
+  {
+    "number": 35,
+    "id": "central-foundation",
+    "name": "Central Foundation",
+    "flavorText": "",
+    "baseIntegrity": 10,
+    "effectText": "Base 10 power. Reinforce 1. +4 Integrity in the centre slot.",
+    "reinforce": 1,
+    "positionEffect": {
+      "condition": "centerSlot",
+      "params": {},
+      "integrityBonus": 4
+    },
+    "flair": {
+      "type": "integrity",
+      "amount": 2
+    },
+    "purchasePrice": 15,
+    "placementGold": 4
+  },
+  {
+    "number": 36,
+    "id": "seasoned-keystone",
+    "name": "Seasoned Keystone",
+    "flavorText": "",
+    "baseIntegrity": 9,
+    "effectText": "Base 9 power. Reinforce 2. +6 Integrity if filling the last empty slot.",
+    "reinforce": 2,
+    "positionEffect": {
+      "condition": "lastEmptySlot",
+      "params": {},
+      "integrityBonus": 6
+    },
+    "purchasePrice": 14,
+    "placementGold": 4
+  },
+  {
+    "number": 37,
+    "id": "heavy-brace",
+    "name": "Heavy Brace",
+    "flavorText": "",
+    "baseIntegrity": 10,
+    "effectText": "Adds 10 Integrity. Support 5 to one adjacent Construct.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "adjacentOne",
+        "amount": 5
+      }
+    ],
+    "purchasePrice": 14,
+    "placementGold": 5
+  },
+  {
+    "number": 38,
+    "id": "crossed-supports",
+    "name": "Crossed Supports",
+    "flavorText": "",
+    "baseIntegrity": 9,
+    "effectText": "Adds 9 Integrity. Support 3 to each adjacent Construct.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "adjacentAll",
+        "amount": 3
+      }
+    ],
+    "purchasePrice": 13,
+    "placementGold": 5
+  },
+  {
+    "number": 39,
+    "id": "training-frame",
+    "name": "Training Frame",
+    "flavorText": "",
+    "baseIntegrity": 9,
+    "effectText": "Adds 9 Integrity. Support another Construct by 7 if it has Reinforce, otherwise by 3.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "any",
+        "amount": 3,
+        "reinforceAmount": 7
+      }
+    ],
+    "purchasePrice": 14,
+    "placementGold": 5
+  },
+  {
+    "number": 40,
+    "id": "load-sharing-frame",
+    "name": "Load-Sharing Frame",
+    "flavorText": "",
+    "baseIntegrity": 9,
+    "effectText": "Adds 9 Integrity. Support 2 to one other placed Construct.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "any",
+        "amount": 2
+      }
+    ],
+    "flair": {
+      "type": "supportAll",
+      "amount": 2
+    },
+    "purchasePrice": 15,
+    "placementGold": 5
+  },
+  {
+    "number": 41,
+    "id": "survey-crew",
+    "name": "Survey Crew",
+    "flavorText": "",
+    "baseIntegrity": 10,
+    "effectText": "Adds 10 Integrity. Draw 2 if Support was used earlier this round.",
+    "draw": {
+      "trigger": "supportUsedThisRound",
+      "amount": 2
+    },
+    "purchasePrice": 13,
+    "placementGold": 6
+  },
+  {
+    "number": 42,
+    "id": "recovery-gantry",
+    "name": "Recovery Gantry",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Adds 8 Integrity. You may bounce one adjacent Construct. If you do, draw 1.",
+    "effects": [
+      {
+        "type": "bounce",
+        "target": "adjacent",
+        "count": 1,
+        "drawOnBounce": 1
+      }
+    ],
+    "flair": {
+      "type": "bounce",
+      "count": 2
+    },
+    "purchasePrice": 14,
+    "placementGold": 4
+  },
+  {
+    "number": 43,
+    "id": "travelling-crane",
+    "name": "Travelling Crane",
+    "flavorText": "",
+    "baseIntegrity": 7,
+    "effectText": "Adds 7 Integrity. You may bounce up to two other Constructs.",
+    "effects": [
+      {
+        "type": "bounce",
+        "target": "any",
+        "count": 2
+      }
+    ],
+    "flair": {
+      "type": "draw",
+      "amount": 2
+    },
+    "purchasePrice": 16,
+    "placementGold": 3
+  },
+  {
+    "number": 44,
+    "id": "return-brace",
+    "name": "Return Brace",
+    "flavorText": "",
+    "baseIntegrity": 10,
+    "effectText": "Adds 10 Integrity. Support 6 to another Construct already played twice this round.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "playedTwice",
+        "amount": 6
+      }
+    ],
+    "purchasePrice": 13,
+    "placementGold": 6
+  },
+  {
+    "number": 45,
+    "id": "fresh-supplies",
+    "name": "Fresh Supplies",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Adds 8 Integrity. Draw 2.",
+    "draw": {
+      "trigger": "onPlacement",
+      "amount": 2
+    },
+    "purchasePrice": 14,
+    "placementGold": 5
+  },
+  {
+    "number": 46,
+    "id": "pool-4-heavy-girder",
+    "name": "Heavy Girder",
+    "flavorText": "",
+    "baseIntegrity": 20,
+    "effectText": "Gain 2 extra Gold if another Construct earned at least 5 Gold on placement this round. Once per round.",
+    "flair": {
+      "type": "gold",
+      "amount": 3
+    },
+    "purchasePrice": 19,
+    "placementGold": 3,
+    "placementGoldBonus": {
+      "minimumOther": 5,
+      "amount": 2
+    }
+  },
+  {
+    "number": 47,
+    "id": "granite-abutment",
+    "name": "Granite Abutment",
+    "flavorText": "",
+    "baseIntegrity": 24,
+    "effectText": "",
+    "purchasePrice": 21,
+    "placementGold": 3
+  },
+  {
+    "number": 48,
+    "id": "deep-foundation",
+    "name": "Deep Foundation",
+    "flavorText": "",
+    "baseIntegrity": 27,
+    "effectText": "",
+    "purchasePrice": 23,
+    "placementGold": 2
+  },
+  {
+    "number": 49,
+    "id": "tempered-column",
+    "name": "Tempered Column",
+    "flavorText": "",
+    "baseIntegrity": 14,
+    "effectText": "Reinforce 2. +4 if an adjacent Construct has Reinforce.",
+    "reinforce": 2,
+    "purchasePrice": 18,
+    "placementGold": 6,
+    "positionEffect": {
+      "condition": "adjacentReinforce",
+      "params": {},
+      "integrityBonus": 4
+    }
+  },
+  {
+    "number": 50,
+    "id": "seasoned-centrepiece",
+    "name": "Seasoned Centrepiece",
+    "flavorText": "",
+    "baseIntegrity": 14,
+    "effectText": "Reinforce 1. +4 in the centre slot.",
+    "reinforce": 1,
+    "positionEffect": {
+      "condition": "centerSlot",
+      "params": {},
+      "integrityBonus": 4
+    },
+    "flair": {
+      "type": "integrity",
+      "amount": 2
+    },
+    "purchasePrice": 17,
+    "placementGold": 6
+  },
+  {
+    "number": 51,
+    "id": "closing-arch",
+    "name": "Closing Arch",
+    "flavorText": "",
+    "baseIntegrity": 12,
+    "effectText": "Reinforce 2. When filling the last empty slot, gain +8 Integrity, or +12 if Support was used earlier this round.",
+    "reinforce": 2,
+    "positionEffect": {
+      "condition": "lastEmptySlot",
+      "params": {},
+      "integrityBonus": 8,
+      "supportedIntegrityBonus": 12
+    },
+    "purchasePrice": 19,
+    "placementGold": 5
+  },
+  {
+    "number": 52,
+    "id": "heavy-bracing",
+    "name": "Heavy Bracing",
+    "flavorText": "",
+    "baseIntegrity": 12,
+    "effectText": "Support one adjacent Construct by 8.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "adjacentOne",
+        "amount": 8
+      }
+    ],
+    "purchasePrice": 17,
+    "placementGold": 6
+  },
+  {
+    "number": 53,
+    "id": "crossed-girders",
+    "name": "Crossed Girders",
+    "flavorText": "",
+    "baseIntegrity": 10,
+    "effectText": "Support each adjacent Construct by 5.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "adjacentAll",
+        "amount": 5
+      }
+    ],
+    "purchasePrice": 18,
+    "placementGold": 6
+  },
+  {
+    "number": 54,
+    "id": "load-sharing-truss",
+    "name": "Load-Sharing Truss",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Support any other Construct by 4.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "any",
+        "amount": 4
+      }
+    ],
+    "flair": {
+      "type": "supportAll",
+      "amount": 4
+    },
+    "purchasePrice": 20,
+    "placementGold": 5
+  },
+  {
+    "number": 55,
+    "id": "seasoned-framework",
+    "name": "Seasoned Framework",
+    "flavorText": "",
+    "baseIntegrity": 10,
+    "effectText": "Reinforce 1. Support one adjacent Construct by 4, or by 8 if it was Bounced this round.",
+    "reinforce": 1,
+    "effects": [
+      {
+        "type": "support",
+        "target": "adjacentOne",
+        "amount": 4,
+        "bouncedAmount": 8
+      }
+    ],
+    "purchasePrice": 18,
+    "placementGold": 6
+  },
+  {
+    "number": 56,
+    "id": "recovery-derrick",
+    "name": "Recovery Derrick",
+    "flavorText": "",
+    "baseIntegrity": 9,
+    "effectText": "May Bounce another Construct. Draw 1 if you do. This card cannot be Bounced.",
+    "effects": [
+      {
+        "type": "bounce",
+        "target": "any",
+        "count": 1,
+        "drawOnBounce": 1
+      }
+    ],
+    "flair": {
+      "type": "bounce",
+      "count": 2
+    },
+    "purchasePrice": 19,
+    "placementGold": 4,
+    "cantBounce": true
+  },
+  {
+    "number": 57,
+    "id": "dismantling-gantry",
+    "name": "Dismantling Gantry",
+    "flavorText": "",
+    "baseIntegrity": 7,
+    "effectText": "May Bounce up to two other Constructs. This card cannot be Bounced.",
+    "effects": [
+      {
+        "type": "bounce",
+        "target": "any",
+        "count": 2
+      }
+    ],
+    "purchasePrice": 20,
+    "placementGold": 3,
+    "cantBounce": true
+  },
+  {
+    "number": 58,
+    "id": "supply-platform",
+    "name": "Supply Platform",
+    "flavorText": "",
+    "baseIntegrity": 11,
+    "effectText": "Draw 2 if Support was used earlier this round.",
+    "draw": {
+      "trigger": "supportUsedThisRound",
+      "amount": 2
+    },
+    "purchasePrice": 16,
+    "placementGold": 7
+  },
+  {
+    "number": 59,
+    "id": "survey-gantry",
+    "name": "Survey Gantry",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Draw 3.",
+    "draw": {
+      "trigger": "onPlacement",
+      "amount": 3
+    },
+    "flair": {
+      "type": "draw",
+      "amount": 2
+    },
+    "purchasePrice": 19,
+    "placementGold": 4
+  },
+  {
+    "number": 60,
+    "id": "master-assembly",
+    "name": "Master Assembly",
+    "flavorText": "",
+    "baseIntegrity": 10,
+    "effectText": "Support another Construct by 10 if it has Reinforce, otherwise 5.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "any",
+        "amount": 5,
+        "reinforceAmount": 10
+      }
+    ],
+    "purchasePrice": 19,
+    "placementGold": 5
+  },
+  {
+    "number": 61,
+    "id": "monolithic-pier",
+    "name": "Monolithic Pier",
+    "flavorText": "",
+    "baseIntegrity": 25,
+    "effectText": "",
+    "flair": {
+      "type": "integrity",
+      "amount": 2
+    },
+    "purchasePrice": 23,
+    "placementGold": 4
+  },
+  {
+    "number": 62,
+    "id": "mountain-abutment",
+    "name": "Mountain Abutment",
+    "flavorText": "",
+    "baseIntegrity": 30,
+    "effectText": "",
+    "purchasePrice": 27,
+    "placementGold": 3
+  },
+  {
+    "number": 63,
+    "id": "first-foundation",
+    "name": "First Foundation",
+    "flavorText": "",
+    "baseIntegrity": 13,
+    "effectText": "Reinforce 2. +6 when placed first this round.",
+    "reinforce": 2,
+    "positionEffect": {
+      "condition": "firstPlayedThisRound",
+      "params": {},
+      "integrityBonus": 6
+    },
+    "purchasePrice": 21,
+    "placementGold": 8
+  },
+  {
+    "number": 64,
+    "id": "tempered-arch",
+    "name": "Tempered Arch",
+    "flavorText": "",
+    "baseIntegrity": 11,
+    "effectText": "Reinforce 2. +10 if both neighbours are occupied.",
+    "reinforce": 2,
+    "positionEffect": {
+      "condition": "bothNeighborsOccupied",
+      "params": {},
+      "integrityBonus": 10
+    },
+    "flair": {
+      "type": "integrity",
+      "amount": 2
+    },
+    "purchasePrice": 22,
+    "placementGold": 7
+  },
+  {
+    "number": 65,
+    "id": "final-keystone",
+    "name": "Final Keystone",
+    "flavorText": "",
+    "baseIntegrity": 11,
+    "effectText": "Reinforce 2. +16 on the seventh Construct placement this round.",
+    "reinforce": 2,
+    "positionEffect": {
+      "condition": "nthConstructPlacedThisRound",
+      "params": {
+        "n": 7
+      },
+      "integrityBonus": 16
+    },
+    "purchasePrice": 24,
+    "placementGold": 6
+  },
+  {
+    "number": 66,
+    "id": "great-counterbrace",
+    "name": "Great Counterbrace",
+    "flavorText": "",
+    "baseIntegrity": 10,
+    "effectText": "Support the Construct immediately left by 12.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "left",
+        "amount": 12
+      }
+    ],
+    "purchasePrice": 22,
+    "placementGold": 7
+  },
+  {
+    "number": 67,
+    "id": "crossed-steelwork",
+    "name": "Crossed Steelwork",
+    "flavorText": "",
+    "baseIntegrity": 9,
+    "effectText": "Support each adjacent Construct by 8.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "adjacentAll",
+        "amount": 8
+      }
+    ],
+    "purchasePrice": 23,
+    "placementGold": 6
+  },
+  {
+    "number": 68,
+    "id": "grand-load-distributor",
+    "name": "Grand Load Distributor",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "Support any other Construct by 5.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "any",
+        "amount": 5
+      }
+    ],
+    "flair": {
+      "type": "supportAll",
+      "amount": 5
+    },
+    "purchasePrice": 25,
+    "placementGold": 5
+  },
+  {
+    "number": 69,
+    "id": "pool-5-master-assembly",
+    "name": "Master Assembly",
+    "flavorText": "",
+    "baseIntegrity": 9,
+    "effectText": "Support another Construct by 8, or by 16 if that Construct has been placed at least twice this round.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "any",
+        "amount": 8,
+        "replayedAmount": 16
+      }
+    ],
+    "purchasePrice": 25,
+    "placementGold": 5
+  },
+  {
+    "number": 70,
+    "id": "pool-5-seasoned-framework",
+    "name": "Seasoned Framework",
+    "flavorText": "",
+    "baseIntegrity": 11,
+    "effectText": "Reinforce 1. Support one adjacent Construct by 6, or by 10 if it already received Support this round.",
+    "reinforce": 1,
+    "effects": [
+      {
+        "type": "support",
+        "target": "adjacentOne",
+        "amount": 6,
+        "supportedAmount": 10
+      }
+    ],
+    "purchasePrice": 23,
+    "placementGold": 7
+  },
+  {
+    "number": 71,
+    "id": "return-gantry",
+    "name": "Return Gantry",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "May Bounce one adjacent Construct. Draw 2 if you do. This card cannot be Bounced.",
+    "effects": [
+      {
+        "type": "bounce",
+        "target": "adjacent",
+        "count": 1,
+        "drawOnBounce": 2
+      }
+    ],
+    "flair": {
+      "type": "bounce",
+      "count": 2
+    },
+    "purchasePrice": 23,
+    "placementGold": 5,
+    "cantBounce": true
+  },
+  {
+    "number": 72,
+    "id": "supply-convoy",
+    "name": "Supply Convoy",
+    "flavorText": "",
+    "baseIntegrity": 10,
+    "effectText": "Draw 3 if Support was used earlier this round.",
+    "draw": {
+      "trigger": "supportUsedThisRound",
+      "amount": 3
+    },
+    "flair": {
+      "type": "draw",
+      "amount": 2
+    },
+    "purchasePrice": 22,
+    "placementGold": 7
+  },
+  {
+    "number": 73,
+    "id": "survey-platform",
+    "name": "Survey Platform",
+    "flavorText": "",
+    "baseIntegrity": 11,
+    "effectText": "Draw 2 if an adjacent Construct has Reinforce.",
+    "draw": {
+      "trigger": "adjacentReinforce",
+      "amount": 2
+    },
+    "purchasePrice": 20,
+    "placementGold": 8
+  },
+  {
+    "number": 74,
+    "id": "reconstruction-crane",
+    "name": "Reconstruction Crane",
+    "flavorText": "",
+    "baseIntegrity": 8,
+    "effectText": "May Bounce up to two other Constructs. Draw 1 per Construct returned. This card cannot be Bounced.",
+    "effects": [
+      {
+        "type": "bounce",
+        "target": "any",
+        "count": 2,
+        "drawOnBounce": 1
+      }
+    ],
+    "purchasePrice": 25,
+    "placementGold": 4,
+    "cantBounce": true
+  },
+  {
+    "number": 75,
+    "id": "crowning-truss",
+    "name": "Crowning Truss",
+    "flavorText": "",
+    "baseIntegrity": 13,
+    "effectText": "Support each adjacent Construct by 4, or by 12 on the seventh Construct placement this round.",
+    "effects": [
+      {
+        "type": "support",
+        "target": "adjacentAll",
+        "amount": 4,
+        "placementBonus": {
+          "count": 7,
+          "amount": 12
+        }
+      }
+    ],
+    "purchasePrice": 26,
+    "placementGold": 5
+  },
+  {
+    "id": "debris",
+    "name": "Debris",
+    "flavorText": "",
+    "baseIntegrity": 0,
+    "effectText": "Adds 0 Integrity. No abilities.",
+    "purchasePrice": 1
+  }
+]

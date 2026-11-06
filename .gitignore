@@ -1,0 +1,20 @@
+# Godot-generated cache. Keep source assets and .uid files in version control.
+.godot/
+
+# Local export credentials and generated builds.
+export_credentials.cfg
+builds/
+
+# macOS metadata.
+.DS_Store
+
+# Local secrets and editor/export scratch files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+export_presets.cfg.bak
+*.blend1
+*.blend2
+*~

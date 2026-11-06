@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="BackdropLayer" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://presentation/backdrop/backdrop_layer.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+position = Vector3(0, 0.40, 58)
+size = Vector3(48, 16, 6)
+colour = Color(0.265, 0.420, 0.330, 1)
+contrast = 0.85
+haze = 0.28

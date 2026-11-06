@@ -1,0 +1,2597 @@
+[
+  {
+    "id": "reward-01-first-drizzle",
+    "name": "First Drizzle",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 15,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-02-passing-shower",
+    "name": "Passing Shower",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 18,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-03-gathering-clouds",
+    "name": "Gathering Clouds",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 22,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-04-distant-thunder",
+    "name": "Distant Thunder",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 26,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-05-brief-squall",
+    "name": "Brief Squall",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 4,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 16,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-06-slick-footing",
+    "name": "Slick Footing",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 16,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "slotPenalties": [
+      {
+        "slotIndex": 2,
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "id": "reward-07-sideways-rain",
+    "name": "Sideways Rain",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 18,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "slotPenalties": [
+      {
+        "slotIndex": 0,
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "id": "reward-08-shaking-branches",
+    "name": "Shaking Branches",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 20,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "slotPenalties": [
+      {
+        "slotIndex": 4,
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "id": "reward-09-mist-between-piers",
+    "name": "Mist Between Piers",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 15,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "slotPenalties": [
+      {
+        "slotIndex": 1,
+        "amount": 1
+      },
+      {
+        "slotIndex": 3,
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "id": "reward-10-rain-on-fresh-timber",
+    "name": "Rain on Fresh Timber",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 16,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "placementPenalties": [
+      {
+        "count": 1,
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "id": "reward-11-last-gust",
+    "name": "Last Gust",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 18,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "placementPenalties": [
+      {
+        "count": 5,
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "id": "reward-12-wind-through-the-gap",
+    "name": "Wind Through the Gap",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 24,
+        "when": {
+          "type": "fullBoard"
+        },
+        "conditionalReduction": {
+          "type": "centerContributionAtLeast",
+          "minimum": 5,
+          "amount": 3
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-13-sheltered-crossing",
+    "name": "Sheltered Crossing",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 26,
+        "when": {
+          "type": "fullBoard"
+        },
+        "conditionalReduction": {
+          "type": "endContributionsAtLeast",
+          "minimum": 4,
+          "amount": 4
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-14-lingering-rain",
+    "name": "Lingering Rain",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 13,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 1,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-15-rising-breeze",
+    "name": "Rising Breeze",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 15,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 1
+    }
+  },
+  {
+    "id": "reward-16-heavy-shower",
+    "name": "Heavy Shower",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 26,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-17-thickening-clouds",
+    "name": "Thickening Clouds",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 29,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-18-rising-creek",
+    "name": "Rising Creek",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 31,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-19-rolling-thunder",
+    "name": "Rolling Thunder",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 34,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-20-building-pressure",
+    "name": "Building Pressure",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 5,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 24,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-21-returning-squall",
+    "name": "Returning Squall",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 7,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 26,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-22-testing-the-joints",
+    "name": "Testing the Joints",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 35,
+        "when": {
+          "type": "fullBoard"
+        },
+        "conditionalReduction": {
+          "type": "supportUsed",
+          "amount": 6
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-23-rain-on-new-timber",
+    "name": "Rain on New Timber",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 37,
+        "when": {
+          "type": "fullBoard"
+        },
+        "conditionalReduction": {
+          "type": "reinforcePlayed",
+          "amount": 7
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-24-the-wind-returns",
+    "name": "The Wind Returns",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 38,
+        "when": {
+          "type": "fullBoard"
+        },
+        "conditionalReduction": {
+          "type": "copyReplayed",
+          "amount": 9
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-25-uneven-load",
+    "name": "Uneven Load",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 35,
+        "when": {
+          "type": "fullBoard"
+        },
+        "conditionalReduction": {
+          "type": "endPowerAtLeast",
+          "amount": 6,
+          "minimum": 6
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-26-waterlogged-centre",
+    "name": "Waterlogged Centre",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 26,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "slotPenalties": [
+      {
+        "slotIndex": 2,
+        "amount": 3,
+        "once": true
+      }
+    ]
+  },
+  {
+    "id": "reward-27-exposed-approach",
+    "name": "Exposed Approach",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 27,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "slotPenalties": [
+      {
+        "slotIndex": 0,
+        "amount": 3,
+        "once": true
+      }
+    ]
+  },
+  {
+    "id": "reward-28-crosswind",
+    "name": "Crosswind",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 26,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "slotPenalties": [
+      {
+        "slotIndex": 1,
+        "amount": 2,
+        "once": true
+      },
+      {
+        "slotIndex": 3,
+        "amount": 2,
+        "once": true
+      }
+    ]
+  },
+  {
+    "id": "reward-29-lingering-downpour",
+    "name": "Lingering Downpour",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 24,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 1,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-30-wind-through-the-valley",
+    "name": "Wind Through the Valley",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 26,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 1
+    }
+  },
+  {
+    "id": "reward-31-rain-finds-a-gap",
+    "name": "Rain Finds a Gap",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 40,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "persistentRain",
+          "slotIndexes": [
+            2
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-32-waterlogged-approach",
+    "name": "Waterlogged Approach",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 42,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        },
+        "effect": {
+          "type": "persistentRain",
+          "slotIndexes": [
+            0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-33-saturated-ground",
+    "name": "Saturated Ground",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 39,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "persistentRain",
+          "slotIndexes": [
+            1,
+            3
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-34-deepening-downpour",
+    "name": "Deepening Downpour",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 7,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 36,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "persistentRain",
+          "slotIndexes": [
+            4
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-35-elephant-at-the-worksite",
+    "name": "Elephant at the Worksite",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 43,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-36-a-sudden-charge",
+    "name": "A Sudden Charge",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 46,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-37-the-herd-returns",
+    "name": "The Herd Returns",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 39,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-38-thunder-and-footsteps",
+    "name": "Thunder and Footsteps",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 6,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 39,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-39-shifting-soil",
+    "name": "Shifting Soil",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 40,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-40-the-hillside-trembles",
+    "name": "The Hillside Trembles",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 38,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-41-aftershocks",
+    "name": "Aftershocks",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 39,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 1
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-42-unstable-foundations",
+    "name": "Unstable Foundations",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 7,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 35,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-43-rain-and-rumbles",
+    "name": "Rain and Rumbles",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 39,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "persistentRain",
+          "slotIndexes": [
+            2
+          ]
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-44-stampede-in-the-rain",
+    "name": "Stampede in the Rain",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 40,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        },
+        "effect": {
+          "type": "persistentRain",
+          "slotIndexes": [
+            4
+          ]
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-45-the-forest-breaks-formation",
+    "name": "The Forest Breaks Formation",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 42,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-46-black-squall",
+    "name": "Black Squall",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 61,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        },
+        "effect": {
+          "type": "persistentRain",
+          "slotIndexes": [
+            2
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-47-cloud-wall",
+    "name": "Cloud Wall",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 68,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-48-breaking-thunderhead",
+    "name": "Breaking Thunderhead",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 17,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 42,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-49-three-hammers",
+    "name": "Three Hammers",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 10,
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        }
+      },
+      {
+        "damage": 20,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 27,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-50-relentless-downpour",
+    "name": "Relentless Downpour",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 10,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 14,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 15,
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        }
+      },
+      {
+        "damage": 17,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        },
+        "effect": {
+          "type": "persistentRain",
+          "slotIndexes": [
+            1,
+            3
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-51-the-hillside-gives-way",
+    "name": "The Hillside Gives Way",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 14,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 39,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-52-aftershocks-in-the-rain",
+    "name": "Aftershocks in the Rain",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 17,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 37,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 1
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-53-charge-through-the-worksite",
+    "name": "Charge Through the Worksite",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 19,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 39,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-54-the-herd-circles-back",
+    "name": "The Herd Circles Back",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 12,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 39,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-55-thunder-underfoot",
+    "name": "Thunder Underfoot",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 12,
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        }
+      },
+      {
+        "damage": 17,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 25,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-56-rain-across-the-foundations",
+    "name": "Rain Across the Foundations",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 15,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 37,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        },
+        "effect": {
+          "type": "persistentRain",
+          "slotIndexes": [
+            0,
+            4
+          ]
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-57-unstable-crossing",
+    "name": "Unstable Crossing",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 15,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 14,
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        }
+      },
+      {
+        "damage": 22,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-58-stampede-beneath-black-clouds",
+    "name": "Stampede Beneath Black Clouds",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 14,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 41,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-59-the-mountain-shudders",
+    "name": "The Mountain Shudders",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 20,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 17,
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        }
+      },
+      {
+        "damage": 20,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-60-the-forest-breaks-your-rhythm",
+    "name": "The Forest Breaks Your Rhythm",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "hits": [
+      {
+        "damage": 8,
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        }
+      },
+      {
+        "damage": 17,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 25,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        },
+        "effect": {
+          "type": "elephantCharge"
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        },
+        "effect": {
+          "type": "shakyGround",
+          "amount": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "reward-61-the-mountain-roars",
+    "name": "The Mountain Roars",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 65,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-62-black-horizon",
+    "name": "Black Horizon",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 76,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-63-wall-of-water",
+    "name": "Wall of Water",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 86,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-64-thunderhead-breaks",
+    "name": "Thunderhead Breaks",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 16,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 52,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-65-the-storm-returns",
+    "name": "The Storm Returns",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 22,
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        }
+      },
+      {
+        "damage": 50,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-66-two-mountains-collide",
+    "name": "Two Mountains Collide",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 18,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 56,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-67-three-hammers-of-thunder",
+    "name": "Three Hammers of Thunder",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 14,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 22,
+        "when": {
+          "type": "slotCount",
+          "count": 5
+        }
+      },
+      {
+        "damage": 40,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-68-relentless-downpour",
+    "name": "Relentless Downpour",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 9,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 11,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 13,
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        }
+      },
+      {
+        "damage": 14,
+        "when": {
+          "type": "slotCount",
+          "count": 5
+        }
+      },
+      {
+        "damage": 16,
+        "when": {
+          "type": "slotCount",
+          "count": 6
+        }
+      },
+      {
+        "damage": 16,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-69-the-sky-cracks-open",
+    "name": "The Sky Cracks Open",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 11,
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        }
+      },
+      {
+        "damage": 22,
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        }
+      },
+      {
+        "damage": 43,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-70-no-shelter",
+    "name": "No Shelter",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 27,
+        "when": {
+          "type": "slotCount",
+          "count": 5
+        }
+      },
+      {
+        "damage": 25,
+        "when": {
+          "type": "slotCount",
+          "count": 6
+        }
+      },
+      {
+        "damage": 25,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-71-the-valley-trembles",
+    "name": "The Valley Trembles",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 16,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 22,
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        }
+      },
+      {
+        "damage": 43,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-72-unbroken-thunder",
+    "name": "Unbroken Thunder",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 7,
+        "when": {
+          "type": "slotCount",
+          "count": 1
+        }
+      },
+      {
+        "damage": 9,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 11,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 13,
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        }
+      },
+      {
+        "damage": 13,
+        "when": {
+          "type": "slotCount",
+          "count": 5
+        }
+      },
+      {
+        "damage": 14,
+        "when": {
+          "type": "slotCount",
+          "count": 6
+        }
+      },
+      {
+        "damage": 16,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-73-the-forest-gives-no-quarter",
+    "name": "The Forest Gives No Quarter",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 22,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 29,
+        "when": {
+          "type": "slotCount",
+          "count": 5
+        }
+      },
+      {
+        "damage": 34,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-74-the-last-deluge",
+    "name": "The Last Deluge",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 23,
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        }
+      },
+      {
+        "damage": 29,
+        "when": {
+          "type": "slotCount",
+          "count": 5
+        }
+      },
+      {
+        "damage": 38,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    }
+  },
+  {
+    "id": "reward-75-nilgiri-thunderstorm",
+    "name": "Nilgiri Thunderstorm",
+    "arc": "Thunderstorm",
+    "category": "forest",
+    "boardSize": 7,
+    "hits": [
+      {
+        "damage": 16,
+        "when": {
+          "type": "slotCount",
+          "count": 2
+        }
+      },
+      {
+        "damage": 22,
+        "when": {
+          "type": "slotCount",
+          "count": 4
+        }
+      },
+      {
+        "damage": 25,
+        "when": {
+          "type": "slotCount",
+          "count": 6
+        }
+      },
+      {
+        "damage": 32,
+        "when": {
+          "type": "fullBoard"
+        }
+      }
+    ],
+    "requires": {
+      "wet": 0,
+      "windy": 0
+    },
+    "weatherDelta": {
+      "wet": 0,
+      "windy": 0
+    },
+    "midRoundEffects": [
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 3
+        },
+        "effect": {
+          "type": "lightningStrike"
+        }
+      },
+      {
+        "when": {
+          "type": "slotCount",
+          "count": 5
+        },
+        "effect": {
+          "type": "lightningStrike"
+        }
+      }
+    ]
+  }
+]

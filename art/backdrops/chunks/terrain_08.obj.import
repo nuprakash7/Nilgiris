@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cmwwn2ixn6aar"
+path="res://.godot/imported/terrain_08.obj-074635d5638a0b4de4bd1e68846f1bbb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/terrain_08.obj-074635d5638a0b4de4bd1e68846f1bbb.mesh"]
+
+source_file="res://art/backdrops/chunks/terrain_08.obj"
+dest_files=["res://.godot/imported/terrain_08.obj-074635d5638a0b4de4bd1e68846f1bbb.mesh", "res://.godot/imported/terrain_08.obj-074635d5638a0b4de4bd1e68846f1bbb.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

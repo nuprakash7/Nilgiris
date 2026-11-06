@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://presentation/world/reward_popup.gd" id="1"]
+
+[node name="RewardPopup" type="ColorRect"]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.01, 0.025, 0.03, 0.88)
+script = ExtResource("1")
+
+[node name="Center" type="CenterContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="Panel" type="PanelContainer" parent="Center"]
+layout_mode = 2
+
+[node name="Content" type="VBoxContainer" parent="Center/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="Title" type="Label" parent="Center/Panel/Content"]
+layout_mode = 2
+text = "CHOOSE A CONSTRUCT REWARD"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 36
+
+[node name="Hint" type="Label" parent="Center/Panel/Content"]
+layout_mode = 2
+text = "Survive the Forest to keep your chosen card."
+horizontal_alignment = 1
+
+[node name="Scroll" type="ScrollContainer" parent="Center/Panel/Content"]
+custom_minimum_size = Vector2(900, 480)
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="Options" type="GridContainer" parent="Center/Panel/Content/Scroll"]
+layout_mode = 2
+columns = 2
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20

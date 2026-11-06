@@ -1,0 +1,1454 @@
+{
+  "habitats": [
+    {
+      "id": "woods",
+      "name": "Woods",
+      "colour": "#69956B"
+    },
+    {
+      "id": "canopies",
+      "name": "Canopies",
+      "colour": "#83B980"
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside",
+      "colour": "#70BEC7"
+    },
+    {
+      "id": "grasslands",
+      "name": "Grasslands",
+      "colour": "#D7C56C"
+    }
+  ],
+  "rarityWeights": {
+    "common": 6,
+    "uncommon": 3,
+    "rare": 1,
+    "veryRare": 0.25,
+    "exceedinglyRare": 0.05
+  },
+  "animals": [
+    {
+      "id": "chital",
+      "name": "Chital",
+      "rarity": "common",
+      "effect": {
+        "type": "integrity",
+        "amount": 3
+      },
+      "effectText": "Add 3 Integrity.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "chital-stag",
+      "name": "Chital Stag",
+      "rarity": "common",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 4,
+        "count": 1,
+        "condition": "endSlot"
+      },
+      "effectText": "Your next end-slot placement adds 4 extra Integrity.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "chital-doe-and-fawn",
+      "name": "Chital Doe and Fawn",
+      "rarity": "common",
+      "effect": {
+        "type": "reduceNextHit",
+        "amount": 3
+      },
+      "effectText": "Block 3.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "chital-herd",
+      "name": "Chital Herd",
+      "rarity": "common",
+      "effect": {
+        "type": "integrityPerOccupied",
+        "amount": 1
+      },
+      "effectText": "Add 1 Integrity per occupied slot.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "wild-boar",
+      "name": "Wild Boar",
+      "rarity": "common",
+      "effect": {
+        "type": "choose",
+        "action": "handPower",
+        "count": 1,
+        "amount": 3
+      },
+      "effectText": "Give a card in hand +3 power this round.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "boar-sow-and-piglets",
+      "name": "Boar Sow and Piglets",
+      "rarity": "common",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 1,
+        "count": 3
+      },
+      "effectText": "Your next 3 placements each add 1 extra Integrity.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "wild-boar-sounder",
+      "name": "Wild Boar Sounder",
+      "rarity": "common",
+      "effect": {
+        "type": "integrity",
+        "amount": 6
+      },
+      "effectText": "Add 6 Integrity.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "bonnet-macaque",
+      "name": "Bonnet Macaque",
+      "rarity": "common",
+      "effect": {
+        "type": "draw",
+        "amount": 1
+      },
+      "effectText": "Draw 1.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "bonnet-macaque-pair",
+      "name": "Bonnet Macaque Pair",
+      "rarity": "common",
+      "effect": {
+        "type": "gold",
+        "amount": 1
+      },
+      "effectText": "Gain 1 Gold.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "bonnet-macaque-troop",
+      "name": "Bonnet Macaque Troop",
+      "rarity": "common",
+      "effect": {
+        "type": "choose",
+        "action": "bounce",
+        "count": 1,
+        "drawAfter": 1
+      },
+      "effectText": "Bounce up to 1 Construct, then draw 1 if returned.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "rarity": "common",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 4,
+        "count": 1,
+        "condition": "centerSlot"
+      },
+      "effectText": "Your next centre-slot placement adds 4 extra Integrity.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "peahen",
+      "name": "Peahen",
+      "rarity": "common",
+      "effect": {
+        "type": "reduceNextHit",
+        "amount": 3
+      },
+      "effectText": "Block 3.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "peafowl-flock",
+      "name": "Peafowl Flock",
+      "rarity": "common",
+      "effect": {
+        "type": "choose",
+        "action": "retain",
+        "count": 2
+      },
+      "effectText": "Retain up to 2 cards.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "grey-junglefowl",
+      "name": "Grey Junglefowl",
+      "rarity": "common",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 3,
+        "count": 1
+      },
+      "effectText": "Your next placement adds 3 extra Integrity.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "junglefowl-pair",
+      "name": "Junglefowl Pair",
+      "rarity": "common",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 2,
+        "count": 2
+      },
+      "effectText": "Your next 2 placements each add 2 extra Integrity.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "white-throated-kingfisher",
+      "name": "White-throated Kingfisher",
+      "rarity": "common",
+      "effect": {
+        "type": "reduceNextHit",
+        "amount": 3
+      },
+      "effectText": "Reduce the next Forest hit by 3.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "common-kingfisher",
+      "name": "Common Kingfisher",
+      "rarity": "common",
+      "effect": {
+        "type": "choose",
+        "action": "look",
+        "count": 1,
+        "lookCount": 2
+      },
+      "effectText": "Look at the top 2 cards. Draw one; put the other underneath.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "indian-hare",
+      "name": "Indian Hare",
+      "rarity": "common",
+      "effect": {
+        "type": "gold",
+        "amount": 2
+      },
+      "effectText": "Gain 2 Gold.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "red-whiskered-bulbul",
+      "name": "Red-whiskered Bulbul",
+      "rarity": "common",
+      "effect": {
+        "type": "sequence",
+        "effects": [
+          {
+            "type": "draw",
+            "amount": 1
+          },
+          {
+            "type": "choose",
+            "action": "discard",
+            "count": 1
+          }
+        ]
+      },
+      "effectText": "Draw 1, then discard 1.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "spotted-dove-pair",
+      "name": "Spotted Dove Pair",
+      "rarity": "common",
+      "effect": {
+        "type": "choose",
+        "action": "retain",
+        "count": 1,
+        "nextRoundPower": 2
+      },
+      "effectText": "Retain up to 1 card; it gains +2 power next round.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "asian-elephant",
+      "name": "Asian Elephant",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "reduceNextHit",
+        "amount": 6
+      },
+      "effectText": "Block 6.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "lone-tusker",
+      "name": "Lone Tusker",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 7,
+        "count": 1,
+        "condition": "emptyNeighbors"
+      },
+      "effectText": "Your next placement without occupied neighbours adds 7 extra Integrity.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "elephant-mother-and-calf",
+      "name": "Elephant Mother and Calf",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "choose",
+        "action": "protect",
+        "count": 1
+      },
+      "effectText": "Protect a placed Construct from its next destruction attempt this round.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "elephant-herd",
+      "name": "Elephant Herd",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "hitProtection",
+        "amount": 2
+      },
+      "effectText": "Block 2 from each remaining hit this round.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "gaur",
+      "name": "Gaur",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "integrity",
+        "amount": 5
+      },
+      "effectText": "Add 5 Integrity.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "gaur-bull",
+      "name": "Gaur Bull",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "choose",
+        "action": "handPower",
+        "count": 1,
+        "amount": 6
+      },
+      "effectText": "Give a card in hand +6 power this round.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "gaur-herd",
+      "name": "Gaur Herd",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 2,
+        "count": 3
+      },
+      "effectText": "Your next 3 placements each add 2 extra Integrity.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "sambar-stag",
+      "name": "Sambar Stag",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 3,
+        "count": 1,
+        "condition": "perNeighbor"
+      },
+      "effectText": "Your next placement adds 3 extra Integrity per occupied neighbour.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "sambar-hind-and-calf",
+      "name": "Sambar Hind and Calf",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "sequence",
+        "effects": [
+          {
+            "type": "reduceNextHit",
+            "amount": 4
+          },
+          {
+            "type": "choose",
+            "action": "retain",
+            "count": 1
+          }
+        ]
+      },
+      "effectText": "Block 4 and retain up to 1 card.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "nilgiri-langur",
+      "name": "Nilgiri Langur",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "sequence",
+        "effects": [
+          {
+            "type": "draw",
+            "amount": 2
+          },
+          {
+            "type": "choose",
+            "action": "discard",
+            "count": 1
+          }
+        ]
+      },
+      "effectText": "Draw 2, then discard 1.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "nilgiri-langur-troop",
+      "name": "Nilgiri Langur Troop",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "choose",
+        "action": "bounce",
+        "count": 2
+      },
+      "effectText": "Bounce up to 2 Constructs.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "indian-grey-mongoose",
+      "name": "Indian Grey Mongoose",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "choose",
+        "action": "discardDebris",
+        "count": 1,
+        "drawAfter": 1
+      },
+      "effectText": "Move 1 Debris from hand to discard; draw 1.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "stripe-necked-mongoose",
+      "name": "Stripe-necked Mongoose",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "choose",
+        "action": "recover",
+        "count": 1
+      },
+      "effectText": "Return 1 Construct from discard to hand.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "malabar-giant-squirrel",
+      "name": "Malabar Giant Squirrel",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "integrity",
+        "amount": 6
+      },
+      "effectText": "Add 6 Integrity.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "giant-squirrel-pair",
+      "name": "Giant Squirrel Pair",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "choose",
+        "action": "bounce",
+        "count": 1,
+        "nextPlacementBonus": 3
+      },
+      "effectText": "Bounce up to 1 Construct; its next placement adds 3 extra Integrity.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "hill-myna",
+      "name": "Hill Myna",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "draw",
+        "amount": 1
+      },
+      "effectText": "Draw 1.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "hill-myna-pair",
+      "name": "Hill Myna Pair",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "draw",
+        "amount": 2
+      },
+      "effectText": "Draw 2.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "bengal-monitor",
+      "name": "Bengal Monitor",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "halfNextHit",
+        "amount": 6
+      },
+      "effectText": "Reduce the next hit by half, blocking at most 6 damage.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "malabar-whistling-thrush",
+      "name": "Malabar Whistling Thrush",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 0,
+        "count": 2,
+        "block": 2
+      },
+      "effectText": "Your next 2 placements each grant Block 2 before scheduled damage.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "asian-fairy-bluebird",
+      "name": "Asian Fairy Bluebird",
+      "rarity": "uncommon",
+      "effect": {
+        "type": "choose",
+        "action": "search",
+        "count": 1,
+        "unusedFlair": true
+      },
+      "effectText": "Search for a Construct with unused Flair.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "nilgiri-tahr",
+      "name": "Nilgiri Tahr",
+      "rarity": "rare",
+      "effect": {
+        "type": "integrity",
+        "amount": 3
+      },
+      "effectText": "Add 3 Integrity.",
+      "cooldown": 0,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "tahr-saddleback",
+      "name": "Tahr Saddleback",
+      "rarity": "rare",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 8,
+        "count": 1,
+        "condition": "endSlot"
+      },
+      "effectText": "Your next end-slot placement adds 8 extra Integrity.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "tahr-herd",
+      "name": "Tahr Herd",
+      "rarity": "rare",
+      "effect": {
+        "type": "choose",
+        "action": "retain",
+        "count": 2,
+        "nextRoundPower": 3
+      },
+      "effectText": "Retain up to 2 cards; each gains +3 power next round.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "asian-small-clawed-otter",
+      "name": "Asian Small-clawed Otter",
+      "rarity": "rare",
+      "effect": {
+        "type": "draw",
+        "amount": 2
+      },
+      "effectText": "Draw 2.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "otter-pair",
+      "name": "Otter Pair",
+      "rarity": "rare",
+      "effect": {
+        "type": "choose",
+        "action": "bounce",
+        "count": 1,
+        "drawAfter": 2
+      },
+      "effectText": "Bounce up to 1 Construct, then draw 2 if returned.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "otter-family",
+      "name": "Otter Family",
+      "rarity": "rare",
+      "effect": {
+        "type": "gold",
+        "amount": 3
+      },
+      "effectText": "Gain 3 Gold.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "dhole",
+      "name": "Dhole",
+      "rarity": "rare",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 7,
+        "count": 1,
+        "condition": "adjacentSlotOccupied"
+      },
+      "effectText": "Your next placement beside an occupied slot adds 7 extra Integrity.",
+      "cooldown": 1,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "dhole-pair",
+      "name": "Dhole Pair",
+      "rarity": "rare",
+      "effect": {
+        "type": "choose",
+        "action": "handPower",
+        "count": 2,
+        "nextPlacementBonus": 4
+      },
+      "effectText": "Choose 2 hand cards. Each adds 4 extra Integrity on its next placement.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "dhole-pack",
+      "name": "Dhole Pack",
+      "rarity": "rare",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 2,
+        "escalating": true
+      },
+      "effectText": "Subsequent placements add +2, then +4, then +6 extra Integrity, and so on.",
+      "cooldown": 3,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "sloth-bear",
+      "name": "Sloth Bear",
+      "rarity": "rare",
+      "effect": {
+        "type": "choose",
+        "action": "removeDebris",
+        "count": 1
+      },
+      "effectText": "Permanently remove 1 Debris from hand or discard.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "sloth-bear-and-cub",
+      "name": "Sloth Bear and Cub",
+      "rarity": "rare",
+      "effect": {
+        "type": "reduceNextHit",
+        "amount": 10
+      },
+      "effectText": "Block 10.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "sloth-bear-with-two-cubs",
+      "name": "Sloth Bear with Two Cubs",
+      "rarity": "rare",
+      "effect": {
+        "type": "sharedProtection",
+        "amount": 12
+      },
+      "effectText": "Gain 12 protection shared across remaining hits.",
+      "cooldown": 3,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "indian-mouse-deer",
+      "name": "Indian Mouse Deer",
+      "rarity": "rare",
+      "effect": {
+        "type": "choose",
+        "action": "search",
+        "count": 1
+      },
+      "effectText": "Search for a Construct.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "mouse-deer-pair",
+      "name": "Mouse Deer Pair",
+      "rarity": "rare",
+      "effect": {
+        "type": "sequence",
+        "effects": [
+          {
+            "type": "choose",
+            "action": "search",
+            "count": 1
+          },
+          {
+            "type": "choose",
+            "action": "retain",
+            "count": 1
+          }
+        ]
+      },
+      "effectText": "Search for a Construct and retain up to 1 card.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "indian-crested-porcupine",
+      "name": "Indian Crested Porcupine",
+      "rarity": "rare",
+      "effect": {
+        "type": "hitProtection",
+        "amount": 3,
+        "count": 3
+      },
+      "effectText": "Block 3 from each of the next 3 hits.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "porcupine-pair",
+      "name": "Porcupine Pair",
+      "rarity": "rare",
+      "effect": {
+        "type": "grace",
+        "amount": 4
+      },
+      "effectText": "Arm Grace 4.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "crested-serpent-eagle",
+      "name": "Crested Serpent Eagle",
+      "rarity": "rare",
+      "effect": {
+        "type": "choose",
+        "action": "look",
+        "count": 2,
+        "lookCount": 5
+      },
+      "effectText": "Look at the top 5 cards. Draw 2; put the rest underneath.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "black-eagle",
+      "name": "Black Eagle",
+      "rarity": "rare",
+      "effect": {
+        "type": "choose",
+        "action": "search",
+        "count": 1,
+        "nextPlacementBonus": 4
+      },
+      "effectText": "Search for a Construct; its next placement adds 4 extra Integrity.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "malabar-grey-hornbill",
+      "name": "Malabar Grey Hornbill",
+      "rarity": "rare",
+      "effect": {
+        "type": "progress",
+        "percent": 20
+      },
+      "effectText": "Increase this round's final Progress by 20%.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "malabar-grey-hornbill-pair",
+      "name": "Malabar Grey Hornbill Pair",
+      "rarity": "rare",
+      "effect": {
+        "type": "progress",
+        "percent": 35,
+        "requiresFullBoard": true
+      },
+      "effectText": "Increase final Progress by 35% if every slot is occupied.",
+      "cooldown": 3,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "male-tiger",
+      "name": "Male Tiger",
+      "rarity": "veryRare",
+      "effect": {
+        "type": "placementBonus",
+        "amount": 0,
+        "count": 1,
+        "multiplier": 2
+      },
+      "effectText": "Double the Integrity generated by your next Construct placement.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "tigress-with-cubs",
+      "name": "Tigress with Cubs",
+      "rarity": "veryRare",
+      "effect": {
+        "type": "grace",
+        "amount": 8,
+        "drawOnTrigger": 2
+      },
+      "effectText": "Arm Grace 8. If it triggers, draw 2 after the hit.",
+      "cooldown": 3,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "leopard",
+      "name": "Leopard",
+      "rarity": "veryRare",
+      "effect": {
+        "type": "choose",
+        "action": "bounce",
+        "count": 1,
+        "nextPlacementMultiplier": 2
+      },
+      "effectText": "Bounce up to 1 Construct. Double its Integrity contribution on its next placement.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "leopard-mother-and-cub",
+      "name": "Leopard Mother and Cub",
+      "rarity": "veryRare",
+      "effect": {
+        "type": "choose",
+        "action": "bounce",
+        "count": 2,
+        "nextPlacementBonus": 5
+      },
+      "effectText": "Bounce up to 2 Constructs. Their next placements each add 5 extra Integrity.",
+      "cooldown": 3,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "lion-tailed-macaque",
+      "name": "Lion-tailed Macaque",
+      "rarity": "veryRare",
+      "effect": {
+        "type": "choose",
+        "action": "search",
+        "count": 2,
+        "differentDefinitions": true
+      },
+      "effectText": "Search for 2 different Constructs.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "lion-tailed-macaque-troop",
+      "name": "Lion-tailed Macaque Troop",
+      "rarity": "veryRare",
+      "effect": {
+        "type": "sequence",
+        "effects": [
+          {
+            "type": "draw",
+            "amount": 3
+          },
+          {
+            "type": "gold",
+            "amount": 2
+          }
+        ]
+      },
+      "effectText": "Draw 3 and gain 2 Gold.",
+      "cooldown": 3,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "indian-rock-python",
+      "name": "Indian Rock Python",
+      "rarity": "veryRare",
+      "effect": {
+        "type": "halfNextHit"
+      },
+      "effectText": "Reduce the next Forest hit by half.",
+      "cooldown": 3,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "king-cobra",
+      "name": "King Cobra",
+      "rarity": "veryRare",
+      "effect": {
+        "type": "grace",
+        "amount": 6,
+        "nextPlacementBonus": 6
+      },
+      "effectText": "Arm Grace 6; if it triggers, your next placement adds 6 extra Integrity.",
+      "cooldown": 3,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "brown-palm-civet",
+      "name": "Brown Palm Civet",
+      "rarity": "veryRare",
+      "effect": {
+        "type": "choose",
+        "action": "recover",
+        "count": 2,
+        "optional": true
+      },
+      "effectText": "Return up to 2 Constructs from discard to hand.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "leopard-cat",
+      "name": "Leopard Cat",
+      "rarity": "veryRare",
+      "effect": {
+        "type": "choose",
+        "action": "handPower",
+        "count": 1,
+        "satisfyNeighbors": true
+      },
+      "effectText": "Choose a card in hand. Its next placement satisfies its neighbour-count conditions.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "nilgiri-marten",
+      "name": "Nilgiri Marten",
+      "rarity": "exceedinglyRare",
+      "effect": {
+        "type": "choose",
+        "action": "search",
+        "count": 2,
+        "nextPlacementBonus": 4
+      },
+      "effectText": "Search for 2 Constructs. Each adds 4 extra Integrity on its next placement.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "nilgiri-marten-pair",
+      "name": "Nilgiri Marten Pair",
+      "rarity": "exceedinglyRare",
+      "effect": {
+        "type": "choose",
+        "action": "handPower",
+        "count": 2,
+        "nextPlacementMultiplier": 2
+      },
+      "effectText": "Choose 2 cards in hand. Their next placements each generate double Integrity.",
+      "cooldown": 3,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "rusty-spotted-cat",
+      "name": "Rusty-spotted Cat",
+      "rarity": "exceedinglyRare",
+      "effect": {
+        "type": "sequence",
+        "effects": [
+          {
+            "type": "choose",
+            "action": "bounce",
+            "count": 1
+          },
+          {
+            "type": "choose",
+            "action": "search",
+            "count": 1
+          },
+          {
+            "type": "gold",
+            "amount": 1
+          }
+        ]
+      },
+      "effectText": "Bounce up to 1 Construct, search for 1 Construct, and gain 1 Gold.",
+      "cooldown": 2,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "ghost-of-the-nilgiris-black-panther",
+      "name": "Ghost of the Nilgiris — Black Panther",
+      "rarity": "exceedinglyRare",
+      "effect": {
+        "type": "choose",
+        "action": "handPower",
+        "count": 1,
+        "permanentMultiplier": 1.5
+      },
+      "effectText": "Mark a Construct in hand. Its placements generate 50% extra Integrity for the rest of the run.",
+      "cooldown": 0,
+      "oncePerRun": true,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    },
+    {
+      "id": "rani-with-her-cubs",
+      "name": "Rani with Her Cubs",
+      "rarity": "exceedinglyRare",
+      "effect": {
+        "type": "sequence",
+        "effects": [
+          {
+            "type": "preventDestruction"
+          },
+          {
+            "type": "grace",
+            "amount": 1
+          }
+        ]
+      },
+      "effectText": "This round, prevent Construct destruction; the first otherwise fatal hit leaves you at 1 Integrity.",
+      "cooldown": 3,
+      "habitatAffinities": {
+        "woods": 1,
+        "canopies": 1,
+        "riverside": 1,
+        "grasslands": 1
+      }
+    }
+  ]
+}

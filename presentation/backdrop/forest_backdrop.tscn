@@ -1,0 +1,30 @@
+[gd_scene load_steps=23 format=3]
+
+[ext_resource type="Script" path="res://presentation/backdrop/forest_backdrop.gd" id="1"]
+[ext_resource type="Script" path="res://presentation/backdrop/backdrop_layer.gd" id="2"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_01.tscn" id="t0"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_02.tscn" id="t1"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_03.tscn" id="t2"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_04.tscn" id="t3"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_05.tscn" id="t4"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_06.tscn" id="t5"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_07.tscn" id="t6"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_08.tscn" id="t7"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_09.tscn" id="t8"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_10.tscn" id="t9"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_11.tscn" id="t10"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_12.tscn" id="t11"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_13.tscn" id="t12"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_14.tscn" id="t13"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_15.tscn" id="t14"]
+[ext_resource type="PackedScene" path="res://art/backdrops/chunks/terrain_16.tscn" id="t15"]
+[ext_resource type="Resource" path="res://presentation/backdrop/layer_a.tres" id="l0"]
+[ext_resource type="Resource" path="res://presentation/backdrop/layer_b.tres" id="l1"]
+[ext_resource type="Resource" path="res://presentation/backdrop/layer_c.tres" id="l2"]
+[ext_resource type="Resource" path="res://presentation/backdrop/layer_d.tres" id="l3"]
+
+[node name="ForestBackdrop" type="Node3D"]
+script = ExtResource("1")
+seed = 1881
+pool = Array[PackedScene]([ExtResource("t0"), ExtResource("t1"), ExtResource("t2"), ExtResource("t3"), ExtResource("t4"), ExtResource("t5"), ExtResource("t6"), ExtResource("t7"), ExtResource("t8"), ExtResource("t9"), ExtResource("t10"), ExtResource("t11"), ExtResource("t12"), ExtResource("t13"), ExtResource("t14"), ExtResource("t15")])
+layers = Array[ExtResource("2")]([ExtResource("l0"), ExtResource("l1"), ExtResource("l2"), ExtResource("l3")])
